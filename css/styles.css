@@ -1,0 +1,288 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.contenedor {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.centrar-todo {
+    max-width: 800px;
+}
+
+
+/************Encabezado***********/
+
+.header-superior {
+    background-color: #ffffff;
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+@media (min-width: 768px) {
+    .logo {
+        display: flex;
+        align-items: center;
+        margin: 1 1 1 1;
+        margin-left: 100px;
+    }
+}
+
+.logo img {
+    width: 200px;
+}
+
+.navegacion {
+    background-color: #000000;
+}
+
+.navegacion ol,
+li,
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 10px;
+}
+
+@media (min-width: 768px) {
+    .navegacion ol,
+    li,
+    a {
+        display: flex;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 10px 10px;
+    }
+}
+
+.contenido-principal {
+    padding-top: 50px;
+}
+
+.producto {
+    display: block;
+    margin-top: 100px;
+}
+
+@media (min-width: 768px) {
+    .producto {
+        display: flex;
+    }
+}
+
+.producto-imagen {
+    flex: 0 0 33.3%;
+}
+
+.producto-contenido {
+    flex: 0 0 66.6%;
+}
+
+.producto-contenido a {
+    display: inline-block;
+    font-weight: 700;
+    color: black;
+}
+
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.contenido-footer {
+    text-align: center;
+    background: #000000;
+}
+
+.contenido-footer {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .contenido-footer {
+        display: flex;
+    }
+}
+
+.creador {
+    margin: auto;
+    margin-right: 50px;
+}
+
+.border {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    background-color: gray;
+}
+
+.productos {
+    display: inline-block;
+}
+
+.productos {
+    margin-bottom: 100px;
+}
+
+@media (min-width: 768px) {
+    .productos {
+        display: flex;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+
+.nosotros {
+    display: block;
+}
+
+.nosotros-img {
+    align-items: center;
+    margin: 10px;
+}
+
+.nosotros-contenido {
+    align-items: center;
+    margin: 10px;
+}
+
+@media (min-width: 768px) {
+    .nosotros {
+        display: flex;
+        justify-content: space-between;
+    }
+    .nosotros-img {
+        flex: 0 0 50%;
+        align-items: center;
+        margin: 10px;
+    }
+    .nosotros-contenido {
+        align-items: center;
+        margin: 10px;
+    }
+}
+
+.cuadro {
+    display: flex;
+    justify-content: center;
+}
+
+.cuadro-6 {
+    flex: 0 0 calc(50% - 1rem);
+    align-items: center;
+}
+
+formulario-contacto {
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+@media (min-width:768px) {
+    .formulario-contacto {
+        margin: 50px;
+    }
+}
+
+.campo {
+    width: 250px;
+    border-radius: 5px;
+    height: 25px;
+    margin: 20px;
+    margin-left: 200px;
+}
+
+@media (min-width: 768px) {
+    .campo {
+        width: 250px;
+        border-radius: 5px;
+        height: 25px;
+        padding-left: 500px;
+        margin: 20px;
+    }
+}
+
+.formulario-contacto .campo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.formulario-contacto .enviar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.margin-texto {
+    margin: 10px;
+}
+
+.centrar-texto {
+    text-align: center;
+    justify-content: center;
+}
+
+.centrar-map {
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+@media (min-width:768px) {
+    .centrar-map {
+        margin-left: 450px;
+    }
+}
+
+.aumentar-letra {
+    font-size: 20px;
+}
+
+.margin-bot {
+    margin-bottom: 35px;
+}
+
+.boton {
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    height: 35px;
+    width: 120px;
+}
+
+@media (min-width: 768px) {
+    .imagen-oferta {
+        height: 400px;
+        width: 500px
+    }
+}
